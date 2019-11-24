@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-porch-light-dev-100423-authRole",
+            "UnauthRoleArn": "arn:aws:iam::901327505844:role/amplify-porch-light-dev-100423-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::901327505844:role/amplify-porch-light-dev-100423-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-porch-light-dev-100423-deployment",
+            "UnauthRoleName": "amplify-porch-light-dev-100423-unauthRole",
+            "StackName": "amplify-porch-light-dev-100423",
+            "StackId": "arn:aws:cloudformation:us-west-2:901327505844:stack/amplify-porch-light-dev-100423/d8f79ce0-0ee4-11ea-8af5-027d9accbf80"
+        }
+    }
+}
