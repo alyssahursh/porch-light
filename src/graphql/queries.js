@@ -7,6 +7,42 @@ export const getUser = `query GetUser($id: ID!) {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
@@ -21,6 +57,18 @@ export const listUsers = `query ListUsers(
       username
       lightOn
       guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
     }
     nextToken
   }

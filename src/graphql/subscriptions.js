@@ -7,6 +7,42 @@ export const onCreateUser = `subscription OnCreateUser {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
@@ -16,6 +52,42 @@ export const onUpdateUser = `subscription OnUpdateUser {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
@@ -25,6 +97,42 @@ export const onDeleteUser = `subscription OnDeleteUser {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;

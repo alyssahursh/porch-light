@@ -3,4 +3,6 @@ type User @model {
   username: String!
   lightOn: Boolean!
   guestroomOpen: Boolean!
+  closestFriends: [User]
+  friends: [User]
 }

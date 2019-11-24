@@ -7,6 +7,42 @@ export const createUser = `mutation CreateUser($input: CreateUserInput!) {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
@@ -16,6 +52,42 @@ export const updateUser = `mutation UpdateUser($input: UpdateUserInput!) {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
@@ -25,6 +97,42 @@ export const deleteUser = `mutation DeleteUser($input: DeleteUserInput!) {
     username
     lightOn
     guestroomOpen
+    closestFriends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
+    friends {
+      id
+      username
+      lightOn
+      guestroomOpen
+      closestFriends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+      friends {
+        id
+        username
+        lightOn
+        guestroomOpen
+      }
+    }
   }
 }
 `;
