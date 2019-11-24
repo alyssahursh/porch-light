@@ -9,6 +9,11 @@
             "UnauthRoleName": "amplify-porch-light-dev-100423-unauthRole",
             "StackName": "amplify-porch-light-dev-100423",
             "StackId": "arn:aws:cloudformation:us-west-2:901327505844:stack/amplify-porch-light-dev-100423/d8f79ce0-0ee4-11ea-8af5-027d9accbf80"
+        },
+        "categories": {
+            "auth": {
+                "porchlightff165dff": {}
+            }
         }
     }
 }

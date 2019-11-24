@@ -1,1 +1,9 @@
-{}
+{
+	"auth": {
+		"porchlightff165dff": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
